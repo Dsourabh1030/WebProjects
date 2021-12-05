@@ -1,0 +1,408 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+}
+
+.logo {
+  /* border: 1px solid springgreen; */
+  display: inline-block;
+  margin: 15px;
+  padding: 10px;
+  margin-left: 80px;
+}
+.bow{
+  display: inline-block;
+  float: right;
+  /* border: 1px solid #051240; */
+  margin-top:-70px;
+  margin-right: 150px;
+}
+.menu {
+  animation-delay: 4s;
+  text-align: center;
+  /* border: 1px solid green; */
+  display: inline-block;
+  margin-right: 40px;
+}
+.menu ul li {
+  /* border: 1px solid springgreen; */
+  display: inline-block;
+  padding: 12px;
+  justify-content: space-around;
+}
+.menu ul a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.hbutton {
+  color: springgreen;
+  border: 1px solid springgreen;
+  display: inline-block;
+  margin: 15px;
+  margin-left: 40px;
+  padding: 10px;
+}
+.hbutton a {
+  text-decoration: none;
+  color: #28b463;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 5px 10px;
+  width: 20%;
+}
+
+.sec1 p {
+  font-size: 40px;
+  margin: 100px;
+  width: 70%;
+}
+.sec1 span {
+  color: springgreen;
+  font: bold;
+}
+sec1 img {
+  float: right;
+}
+.sec1btn {
+  padding: 15px 20px;
+  word-spacing: 3px;
+  background-color: springgreen;
+  color: white;
+  font: bold;
+  border: none;
+}
+.sec2 {
+  padding-top: 50px;
+  background-color: #e5e4e2;
+  width: 100%;
+  padding-bottom: 50px;
+}
+.sec2pp {
+  text-align: center;
+  margin-left: 170px;
+  margin-right: 170px;
+}
+.sec2p {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.sec2btn {
+  padding: 15px 20px;
+  word-spacing: 3px;
+  background-color: springgreen;
+  color: white;
+  font: bolder;
+  border: none;
+}
+.sec3 {
+  padding-top: 80px;
+  animation: 6s;
+  width: 100%;
+  background-color: #28b463;
+  padding-bottom: 150px;
+  margin-bottom: -100px;
+}
+.sec3p {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.sec4 img {
+  padding: 10px;
+  margin-top: 10px;
+}
+.sec4{
+  display: flex;
+  flex: auto;
+  flex-wrap: nowrap;
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+.sec4p1 {
+  color: black;
+  background: white;
+  /* border: 1px solid black; */
+  width: 80%;
+  padding: 25px;
+  margin: 25px;
+  display: inline-grid;
+  box-sizing: border-box;
+  box-shadow:5px 5px 3px grey; 
+}
+.sec4p2 {
+  color: black;
+  background: white;
+  border: none;
+  width:80%;
+  padding: 25px;
+  margin: 25px;
+  display: inline-grid;
+  box-sizing: border-box;
+  box-shadow:5px 5px 3px grey; 
+  /* border: 1px solid black; */
+}
+.sec4p3 {
+  color: black;
+  background: white;
+  /* border: 1px solid black; */
+  width: 80%;
+  padding: 25px;
+  margin: 25px;
+  display: inline-grid;
+  box-sizing: border-box;
+  box-shadow:5px 5px 3px grey; 
+}
+.sec4p4 {
+  color: black;
+  /* border: 1px solid black; */
+  background: white;
+  width: 80%;
+  padding: 25px;
+  margin: 25px;
+  display: inline-grid;
+  box-sizing: border-box;
+  box-shadow:5px 5px 3px grey; 
+}
+.sec5 {
+  background: #051240;
+  color: blanchedalmond;
+  padding: 100px;
+}
+.sec5 h4 {
+  font-weight: normal;
+  font-size: large;
+}
+.sec5l {
+  /* border: 1px solid black; */
+  display: inline-block;
+  width: 20%;
+  margin: 50px;
+}
+.sec5r {
+  /* border: 1px solid black; */
+  display: inline-block;
+  margin: 50px;
+  width: 60%;
+}
+.sec6 h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px;
+  width: 70%;
+  margin-top: 50px;
+  margin-left: 120px;
+  padding: 10px;
+}
+
+.icons {
+  margin: 20px;
+  width: 70%;
+  padding: 10px;
+}
+.icons img {
+  /* border: 1px solid red; */
+  padding: 15px;
+  margin: 18px;
+}
+.icons ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+.icons li {
+  padding: 10px;
+  margin: 10px;
+}
+.timeline {
+  position: relative;
+  max-width: 220px;
+  margin: 0px;
+
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding:  -10px; 
+  font-size: 20px;
+  position: relative;
+  background-color: inherit;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 3px solid springgreen;
+  top: -2px;
+  border-radius: 50%;
+  z-index: 1;
+
+}
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 20px;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent ;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+ /* border: 1px solid red; */
+  padding: 20px;
+  position: relative;
+  width:800px;
+  margin-left: 100px;
+  text-align:  left;
+  /* font-size: 15px; */
+}
+.content h3,p{
+  margin-top: -20px;
+}
+
+/* .vertical {
+            border-left: 2px solid black; 
+            height: 620px;
+            padding: 5px;
+            position:absolute;
+            left:4.8rem;
+            z-index: -1;
+        }  */
+.sec7 h2 {
+  
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px;
+  width: 70%;
+  margin-top: 50px;
+  margin-left: 120px;
+  padding: 10px;
+}
+.sec7 ul{
+  list-style: none;
+}
+.sec7 ul li {
+  padding: 12px;
+  list-style: none;
+  margin: 10px;
+}
+
+.sec7 ol {
+  font-size: 20px;
+}
+.sec7 p {
+  font-size: medium;
+} 
+.sec8{
+  background: #051240;
+  color: blanchedalmond;
+ padding: 80px;
+ margin-bottom: 30px;
+}
+.sec8 .message {
+  /* border: 1px solid white; */
+  display: inline-block;
+  width: 45%;
+  margin: 30px;
+  padding: 20px;
+  
+}
+.sec8 .feedback{
+  /* border: 1px solid white; */
+  display: inline-block;
+  width: 30%;
+  margin: 30px;
+  
+}
+.feedback input{
+   padding: 8px;
+background: #051241;
+border: none;
+ }
+ .feedback textarea{
+  padding: 8px;
+  background: #051241;
+  border: none;
+ }
+.sec8 .sec8btn{
+  padding: 15px;
+  width: 60%;
+  margin-left:10px ;
+  word-spacing: 3px;
+  background-color: springgreen;
+  color: white;
+  font: bolder;
+  border: none;
+  float: right;
+
+}
+.sec9{
+  display: flex;
+  flex-direction: row;
+  background-color: #051240;
+  color: #e5e4e2;
+  padding-bottom: 20px;
+  margin-top: -50px;
+}
+
+.sec9 .menulist{
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+.menulist ul{
+  margin: 5px;
+}
+.menulist ul li{ 
+list-style: none;
+margin: 10px;
+text-decoration: none;
+}
+
+footer{
+  font-weight: normal;
+  background: #010a2b;
+  padding: 12px;
+  color: white;
+}
+footer p{
+  margin-top: 10px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
